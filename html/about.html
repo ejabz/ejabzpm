@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head> 
+
+<body>
+<section class="sub-header"> 
+    <nav>
+        <a href="index.html"><img src="../images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/about.html">ABOUT</a></li>
+                <li><a href="../html/services.html">SERVICES</a></li>
+                <li><a href="../html/work.html">WORK</a></li>
+                <li><a href="../html/client.html">CLIENT</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>About Me</h1>
+
+</section>
+
+<!--------------About me content-------------->
+
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <h1>Elmer Angeles Jabutay</h1>
+            <h4>Software Engineer and Full-stack Web Developer. </h4>
+            <p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+
+                Your proficiency in various programming languages, such as HTML, CSS, JavaScript, and possibly others like Python, PHP, or Ruby, empowers you to build dynamic and responsive web applications. You stay up-to-date with the latest web development trends, frameworks, and tools, allowing you to create modern and efficient solutions.
+                
+                One of your strengths as a web developer is your ability to grasp complex problems and break them down into manageable tasks. This analytical mindset, coupled with your attention to detail, ensures that your projects are well-structured and robust, offering a seamless user experience across different devices and browsers.
+                
+                You are also a firm believer in the importance of user-centered design. Before diving into the coding process, you take the time to understand your clients' requirements and the target audience, ensuring that the final product aligns with their goals and resonates with end-users.
+                
+                Your resourcefulness and problem-solving skills shine when troubleshooting bugs or optimizing website performance. You enjoy the challenges that come with debugging code and constantly seek opportunities to enhance the efficiency and functionality of your projects.
+                
+                Collaboration and teamwork are essential aspects of your approach to web development. You are open to feedback and enjoy working alongside designers, other developers, and stakeholders to create a cohesive and harmonious digital product.
+                
+                Your curiosity and thirst for knowledge drive you to continuously learn and improve your skills. You explore new technologies, attend workshops, and read up on industry best practices, which enables you to stay ahead in a rapidly evolving field.
+                
+                Overall, as a web developer, you play a crucial role in shaping the digital landscape. Your dedication to innovation, user experience, and technical expertise ensures that the websites and applications you create have a positive impact and leave a lasting impression on visitors.</p>
+            <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>   
+        <div class="about-col">
+            <img src="../images/family.jpg"> 
+        </div>
+    
+    </div>
+
+</section>
+
+
+<!--------------contact to action ----------->
+
+<section class="cta">
+    <h1>Learn and Design Anytime, Anywhere, and everywhere under the sun <br>
+        According to your own freedom.</h1>
+    
+    <a href=""class="hero-btn">Contact Now</a>
+    
+    </section> 
+
+<!--------------------footer----------------->
+
+<section class="footer">
+<h4>About Me</h4>
+<p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, <br>and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made for <b>Kodego Project</b> by <i><b>Elmer Jabutay</b></i></p> 
+
+</section>
+
+
+
+<!---------------------JavasScript for toggle Menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

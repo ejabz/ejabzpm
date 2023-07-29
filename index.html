@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head> 
+
+<body>
+<section class="header"> 
+    
+    <nav>
+        <a href="index.html"><img src="images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>        <!--------for hiding the menu in responsive navigator-->
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/about.html">ABOUT</a></li>
+                <li><a href="../html/services.html">SERVICES</a></li>
+                <li><a href="../html/work.html">WORK</a></li>
+                <li><a href="../html/client.html">CLIENT</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>            <!--------for showing the menu in responsive navigator-->
+     </nav>
+   
+<div class="text-box">
+    <h1>Welcome to My Homepage</h1>
+    <p>Being a web developer is not just a career choice; it's a journey of perpetual growth and exploration. <br>Becoming a Web Developer: Unleashing the Power of Digital Creativity </p>
+    <br>    <br> <br>    <br>
+    <br>    <br> <br>    <br>
+    
+
+     <h2>Elmer Angeles Jabutay</h2>
+     <br>
+     <a href=""class="hero-btn">Web Developer</a>
+    
+
+</div>
+</section>
+
+<!--------- Course Tools ------------>
+
+<Section class="course">
+    
+    <a target="_blank" href="resume.pdf"><h2><b>My Resume</b></h2></a>
+    <h3>Click to download</h3>
+    <br><br><br>
+    <h1>Web Development Tools</h1>
+    <p>Being a web developer is not just a career choice; it's a journey of perpetual growth and exploration. </p>
+
+<div class="row">
+    <div class="course-col">
+       <h3>HTML and CSS</h3> 
+       <p>HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are fundamental technologies used in web development to create and design web pages. They work together to structure and style the content of a webpage, allowing it to be displayed and presented in a visually appealing and organized manner. Here's a brief overview of each:</p>
+        <p>Together, HTML and CSS form the backbone of web development, enabling developers to create engaging, user-friendly, and aesthetically pleasing websites that are accessible across different devices and browsers. They are essential skills for anyone aspiring to become a web developer or designer.</p>
+    </div>
+    <div class="course-col">
+        <h3>JavaScript</h3> 
+        <p>JavaScript is a high-level, dynamic, and versatile programming language primarily used for web development. It allows developers to add interactivity and dynamic elements to websites, making them more engaging and user-friendly. Here are some key points about JavaScript:</p>
+        <p>JavaScript has become an essential tool in modern web development, alongside HTML and CSS, enabling developers to create interactive, dynamic, and feature-rich websites and applications that run smoothly across various devices. Its continuous evolution and widespread adoption make it a valuable skill for aspiring web developers and software engineers.</p>
+    </div> 
+     <div class="course-col">
+        <h3>Python</h3> 
+        <p>Python is a high-level, interpreted, and versatile programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python has gained widespread popularity due to its ease of use, extensive standard library, and a thriving community. Here are some key features and characteristics of Python:</p>
+        <p>Python's versatility, ease of learning, and extensive community support have propelled its popularity and made it an excellent choice for beginners and experienced developers alike. Whether you are interested in web development, data science, automation, or any other field, Python offers a powerful and user-friendly tool set to tackle a wide range of projects.</p>
+    </div>
+</div>
+
+</Section>
+
+
+<!--------------contact to action ----------->
+
+<section class="cta">
+<h1>Learn and Design Anytime, Anywhere, and everywhere under the sun<br> 
+    According to your own freedom.</h1>
+
+<a href=""class="hero-btn">Contact Now</a>
+
+</section> 
+
+
+<!--------------------footer----------------->
+
+<section class="footer">
+<h4>About Me</h4>
+<p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, <br>and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+   </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made for <b>Kodego Project</b> by <i><b>Elmer Jabutay</b></i></p> 
+
+</section>
+
+
+
+<!---------------------JavasScript for toggle Menu---------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+
+</html>

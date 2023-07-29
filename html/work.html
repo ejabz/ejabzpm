@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/work.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head> 
+
+<body>
+<section class="sub-header"> 
+    <nav>
+        <a href="index.html"><img src="../images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/about.html">ABOUT</a></li>
+                <li><a href="../html/services.html">SERVICES</a></li>
+                <li><a href="../html/work.html">WORK</a></li>
+                <li><a href="../html/client.html">CLIENT</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Work</h1>
+
+</section>
+
+<!--------- Course ------------>
+
+<Section class="course">
+    <h1>Work As a Developer</h1>
+    <p>Being a web developer is not just a career choice; it's a journey of perpetual growth and exploration. </p>
+
+<div class="row">
+    <div class="course-col">
+       <h3>Web Development and Mobile App Development</h3> 
+       <br>   <br>
+       <h4><b>Web Development:</b></h4>
+       <p>•	Creating responsive and interactive websites using HTML, CSS, and JavaScript.</p>
+       <p>•	Building server-side functionality with programming languages like Python, PHP, Ruby, or Node.js.</p>
+       <p>•	Integrating databases (e.g., MySQL, PostgreSQL) to store and retrieve data.</p>
+       <p>•	Implementing APIs to interact with external services.</p>
+       <p>•	Deploying websites on web servers like Apache or Nginx.</p>
+       <br>   <br>
+       <h4><b>Mobile App Development:</b></h4>
+       <p>•	Designing and developing native or cross-platform mobile applications for Android and iOS using languages like Java, Kotlin, Swift, or React Native.</p>
+       <p>•	Implementing user interfaces that adhere to the platform's design guidelines.</p>
+       <p>•	Integrating databases (e.g., MySQL, PostgreSQL) to store and retrieve data.</p>
+       <p>•	Implementing user interfaces that adhere to the platform's design guidelines.</p>
+       <p>•	Working with APIs to fetch and display data from server-side systems.</p>
+    
+    </div>
+    <div class="course-col">
+        <h3>Game Development and Data Science</h3> 
+        <br>   <br>
+        <h4><b>Game Development::</b></h4>
+        <p>•    Creating video games using game engines like Unity or Unreal Engine.</p>
+        <p>•	Writing game mechanics and implementing game play features.</p>
+        <p>•	Designing levels, characters, and assets for the game.</p>
+        <p>•	Integrating audio and visual effects to enhance the gaming experience.</p>
+        <p>•	Optimizing the game for performance on various platforms.</p>
+        <br>   <br>
+        <h4><b>Data Science and Machine Learning:</b></h4>
+        <p>•	Collecting and cleaning data for analysis.</p>
+        <p>•	Developing machine learning models using frameworks like TensorFlow or PyTorch.</p>
+        <p>•	Training models on large datasets and fine-tuning them for accuracy.</p>
+        <p>•	Deploying machine learning models to production systems.</p>
+        <p>•	Conducting data analysis and generating insights from the data.</p>
+     
+    </div> 
+     <div class="course-col">
+        <h3>Devops and cloude infra. and Backend Development</h3> 
+        <br>   <br>
+       <h4><b>DevOps and Cloud Infrastructure:</b></h4>
+       <p>•	Setting up and configuring cloud infrastructure using platforms like AWS, Azure, or Google Cloud.</p>
+       <p>•	Creating automated deployment pipelines using tools like Jenkins or GitLab CI/CD.</p>
+       <p>•	Managing containerization technologies like Docker and orchestration with Kubernetes.</p>
+       <p>•	Monitoring and maintaining system performance and security.</p>
+       
+       <br>   <br>
+       <h4><b>Backend Development:</b></h4>
+       <p>•	Building and maintaining server-side applications and APIs.</p>
+       <p>•	Working with databases to store and retrieve data efficiently.</p>
+       <p>•	Implementing user authentication and authorization systems.</p>
+       <p>•	Handling server scaling and performance optimization.</p>
+     
+    
+    </div>
+</div>
+
+<!--------------contact to action ----------->
+
+<section class="cta">
+    <h1>Learn and Design Anytime, Anywhere, and everywhere under the sun <br>
+        According to your own freedom.</h1>
+    
+    <a href=""class="hero-btn">Contact Now</a>
+    
+    </section> 
+
+<!--------------------footer----------------->
+
+<section class="footer">
+<h4>About Me</h4>
+<p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, <br>and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made for <b>Kodego Project</b> by <i><b>Elmer Jabutay</b></i></p> 
+
+</section>
+
+
+
+<!---------------------JavasScript for toggle Menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

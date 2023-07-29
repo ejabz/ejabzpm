@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head> 
+
+<body>
+<section class="sub-header"> 
+    <nav>
+        <a href="index.html"><img src="../images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/about.html">ABOUT</a></li>
+                <li><a href="../html/services.html">SERVICES</a></li>
+                <li><a href="../html/work.html">WORK</a></li>
+                <li><a href="../html/client.html">CLIENT</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Clients</h1>
+
+</section>
+
+<!--------- Course ------------>
+
+<Section class="course">
+    <h1>Clients developed apps</h1>
+    <p>Being a web developer is not just a career choice; it's a journey of perpetual growth and exploration. </p>
+
+<div class="row">
+    <div class="course-col">
+       <h3>Web development services</h3> 
+       <p>Client: ABC Tech Solutions</p>
+        <p>Project Description: Development of a responsive e-commerce website and mobile app for their online retail business. The website and app were built using the latest technologies, ensuring a smooth user experience and secure payment gateways. The project also involved integrating inventory management and order processing systems.</p>
+        <p>Client: XYZ HealthTech</p>
+        <p>Project Description: Collaboration with XYZ HealthTech to create a health and fitness tracking application. The app allowed users to track their exercise routines, monitor nutrition intake, and set fitness goals. Additionally, it integrated with wearable devices for real-time health data collection. The project emphasized data privacy and adherence to health industry regulations.</p>
+   
+    </div>
+    <div class="course-col">
+        <h3>Artificial Intelligence and Machine Learning</h3> 
+        <p>Client: ABC Tech Solutions</p>
+        <p>Project Description: Collaborated with Alpha Finance Corp to build an AI-powered robo-advisory platform for their investment services. The system utilized machine learning algorithms to analyze market trends, optimize investment portfolios, and provide personalized financial advice to clients. The platform was designed to enhance investment decision-making and maximize returns.</p>
+        <p>Client: Beta Healthcare Solutions</p>
+        <p>Project Description: Worked with Beta Healthcare Solutions to develop a medical image analysis tool. The AI-driven software could analyze medical images such as X-rays, MRIs, and CT scans to detect anomalies and assist healthcare professionals in diagnosing diseases accurately. Data security and patient privacy were of utmost importance in this project.</p>
+        
+    </div> 
+     <div class="course-col">
+        <h3>Client List of Developer: Game Development</h3> 
+        <p>Client: Fantasy Realms Entertainment</p>
+        <p>Project Description: Designed and developed an immersive fantasy role-playing game (RPG) for Fantasy Realms Entertainment. The game featured rich graphics, engaging gameplay mechanics, and a captivating storyline. Multiplayer functionality allowed players to interact and collaborate in the vast virtual world.</p>
+        <p>Client: Sci-Fi Interactive Studios</p>
+        <p>Project Description: Partnered with Sci-Fi Interactive Studios to create a futuristic first-person shooter (FPS) game. The project involved designing intricate environments, realistic weapons, and advanced AI for challenging opponents. Online multiplayer capabilities were integrated to enable players worldwide to compete and cooperate.</p>
+    </div>
+</div>
+
+<!--------------contact to action ----------->
+
+<section class="cta">
+    <h1>Learn and Design Anytime, Anywhere, and everywhere under the sun <br>
+        According to your own freedom.</h1>
+    
+    <a href=""class="hero-btn">Contact Now</a>
+    
+    </section> 
+
+<!--------------------footer----------------->
+
+<section class="footer">
+<h4>About Me</h4>
+<p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, <br>and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made for <b>Kodego Project</b> by <i><b>Elmer Jabutay</b></i></p> 
+
+</section>
+
+
+
+<!---------------------JavasScript for toggle Menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

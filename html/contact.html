@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/client.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head> 
+
+<body>
+<section class="sub-header"> 
+    <nav>
+        <a href="index.html"><img src="../images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="../index.html">HOME</a></li>
+              <li><a href="../html/about.html">ABOUT</a></li>
+              <li><a href="../html/services.html">SERVICES</a></li>
+              <li><a href="../html/work.html">WORK</a></li>
+              <li><a href="../html/client.html">CLIENT</a></li>
+              <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Contacts</h1>
+
+</section>
+
+<!--------------About me content-------------->
+
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <h1>Send us a message </h1>
+            <br>   <br>
+            <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+          
+        </div>   
+        <div class="about-col">
+            <img src="../images/backg.png"> 
+        </div>
+    
+    </div>
+
+</section>
+
+
+<!--------------contact to action ----------->
+
+<section class="cta">
+    <h1>Learn and Design Anytime, Anywhere, and everywhere under the sun <br>
+        According to your own freedom.</h1>
+    
+    <a href=""class="hero-btn">Contact Now</a>
+    
+    </section> 
+
+<!--------------------footer----------------->
+
+<section class="footer">
+<h4>About Me</h4>
+<p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, <br>and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made for <b>Kodego Project</b> by <i><b>Elmer Jabutay</b></i></p> 
+
+</section>
+
+
+
+<!---------------------JavasScript for toggle Menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

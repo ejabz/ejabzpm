@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/client.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head> 
+
+<body>
+<section class="sub-header"> 
+    <nav>
+        <a href="index.html"><img src="../images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/about.html">ABOUT</a></li>
+                <li><a href="../html/services.html">SERVICES</a></li>
+                <li><a href="../html/work.html">WORK</a></li>
+                <li><a href="../html/client.html">CLIENT</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Services</h1>
+
+</section>
+
+<!--------- Course ------------>
+
+<Section class="course">
+    <h1>Web Development Services</h1>
+    <p>Being a web developer is not just a career choice; it's a journey of perpetual growth and exploration. </p>
+
+<div class="row">
+    <div class="course-col">
+       <h3>Website Design and Development</h3> 
+       <p>Creating visually appealing and user-friendly websites tailored to the client's needs, utilizing HTML, CSS, and JavaScript to build responsive and interactive web pages.</p>
+       <h3>Front-end Development: </h3> 
+       <p>Implementing the user interface and user experience (UI/UX) design, ensuring seamless navigation and engaging user interactions across different devices and browsers.</p>
+    </div>
+    <div class="course-col">
+        <h3>Back-end Development: </h3> 
+       <p>CBuilding the server-side infrastructure and databases to power the website, managing data storage, processing user requests, and handling server operations.</p>
+       <h3>Full-stack Development: </h3> 
+       <p>ICombining front-end and back-end development skills to create end-to-end web solutions that cover both the client-facing interface and server-side functionality.</p>
+    </div> 
+     <div class="course-col">
+        <h3>E-commerce Development</h3> 
+       <p>Designing and developing online stores and e-commerce platforms, integrating secure payment gateways, shopping carts, and product catalogs for a smooth online shopping experience.</p>
+       <h3>Content Management Systems (CMS):  </h3> 
+       <p>Creating custom CMS or integrating popular CMS platforms like WordPress, Joomla, or Drupal to empower clients with the ability to manage and update website content easily.</p>
+    </div>
+</div>
+
+
+<!--------------contact to action ----------->
+
+<section class="cta">
+    <h1>Learn and Design Anytime, Anywhere, and everywhere under the sun <br>
+        According to your own freedom.</h1>
+    
+    <a href=""class="hero-btn">Contact Now</a>
+    
+    </section> 
+
+<!--------------------footer----------------->
+
+<section class="footer">
+<h4>About Me</h4>
+<p>As a web developer, you are a skilled and creative individual who brings digital visions to life on the internet. Your passion for technology, coding, <br>and design fuels your dedication to crafting interactive and visually appealing websites that cater to users' needs and preferences.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made for <b>Kodego Project</b> by <i><b>Elmer Jabutay</b></i></p> 
+
+</section>
+
+
+
+<!---------------------JavasScript for toggle Menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
